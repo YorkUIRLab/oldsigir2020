@@ -1,0 +1,57 @@
+---
+title: Attending
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{% include head.html %}
+	<script>
+        var link = window.location.hash.substr(1);
+        if (link.length > 3) {
+            window.location.replace(link+".html");
+        }
+	</script>
+
+</head>
+
+
+<body>
+
+{% include navbar.html %}
+
+<div class="container">
+
+
+	{% include front-logo.html %}
+
+
+<div class="row">
+<div class="container content-container">
+
+<div class="col-sm-0 col-md-3">
+</div>
+
+<div class="col-sm-12 col-md-9">
+
+<ul>
+<li><a href="call-for-papers.html">Call for Papers</a></li>
+<li><a href="call-for-workshop-proposals.html">Call for Workshop Proposals</a></li>
+<li><a href="call-for-tutorials.html">Call for Tutorials</a></li>
+<li><a href="wsdm-cup.html">WSDM Cup</a></li>
+<li><a href="call-for-proposals-wsdm-cup.html">Call for Proposals: WSDM Cup</a></li>
+<li><a href="call-for-sponsorship.html">Call for Sponsorship</a></li>
+<li><a href="call-for-student-volunteers.html">Call for Student Volunteers</a></li>
+</ul>
+
+</div>
+</div><!-- end row -->
+</div>
+</div><!-- end container -->
+
+{% include footer.html %}
+
+
+</body>
+
+</html>

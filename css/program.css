@@ -1,0 +1,370 @@
+table.schedule-table {
+	background: white;
+}
+
+table.schedule-table tr td{
+	border: none;
+	font-family: 'Lato', sans-serif;
+	line-height:1em;
+	letter-spacing:0em;
+}
+
+table.industry-day tr td{
+	font-size: 1.1em;
+}
+
+table.schedule-table *{
+	font-family: 'Lato', sans-serif;
+	line-height:1.1em;
+	letter-spacing:0em;
+}
+
+@media (max-width: 768px) {
+table.schedule-table {
+	min-width: 700px;
+}
+table.detailed-schedule {
+	min-width: 0;
+}
+table.schedule-table .col-xs-2 {
+	font-size: 0.96em;
+}
+}
+
+table.schedule-table td.time-mark {
+	padding-right:5px;
+	text-align:right;
+	vertical-align: top;
+	border-top: #aaa 1px solid;
+	color:#666;
+}
+
+table.schedule-table td.room-heading{
+	background-color: #999;
+	color: #fff;
+	font-size: 0.9em;
+	border-left:#fff 2px solid;
+}
+
+table.schedule-table td.date-heading{
+	background-color: #555;
+	color: #fff;
+	font-size: 1.1em;
+	border-left:#fff 2px solid;
+}
+
+table.schedule-table td.break{
+	padding:0px;
+	text-align:right;
+	vertical-align: middle;
+}
+
+table.schedule-table td.break div{
+	padding: 5px;
+		color:#555;
+}
+
+table.schedule-table .room{
+display: block;
+margin: 0px 0px;
+padding: 3px 0px;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: .25em;
+color:#666;
+font-size: 0.8em;
+/*display:none;*/
+}
+
+table.schedule-table .room-event{
+margin-top: 5px;
+line-height: 1.2em;
+color: #fff1e1;
+}
+
+table.schedule-table div.event{
+	margin: 15px 0px;
+	padding-left: 2px;
+}
+
+table.schedule-table div.event-id{
+	color:#666;
+	font-size: 0.8em;
+}
+
+table.schedule-table a{
+	color:inherit;
+}
+
+table.schedule-table td.industry{
+	border: 0px #eee solid;
+	border-left:#d73e2a 2px solid;
+	background-color:#fffbfa;
+}
+
+table.schedule-table td.doctoral{
+		border: 0px #eee solid;
+	border-left:#2477b4 2px solid;
+	background-color:#f9fbfe;
+}
+
+table.schedule-table td.workshop{
+	border: 0px #eee solid;
+	border-left:#4ca02e 2px solid;
+	background-color:#eaf5eb;
+}
+
+table.schedule-table td.tutorial{
+	border: 0px #eee solid;
+	border-left:#80007e 2px solid;
+	background-color:#fff9ff;
+}
+
+table.schedule-table td.meal{
+		border: 0px #eee solid;
+	border-left:#f3d6ba 2px solid;
+	background-color:#fff1e1;
+}
+
+table.schedule-table td.coffee{
+		border: 0px #eee solid;
+	border-left:#f3d6ba 2px solid;
+	background-color:#fff1e1;
+}
+
+table.schedule-table{
+	border-collapse: separate;
+	border-spacing: 0px 4px;
+}
+
+.table tbody>tr>td.vert-align-mid{
+		vertical-align: middle;
+}
+
+table.schedule-table td.workshop .heading{
+	color:#d73e2a;
+	/*font-weight:bold;*/
+	font-size: 1.35em;
+}
+
+table.schedule-table td.industry .heading{
+	color:#2477b4;
+	/*font-weight:bold;*/
+	font-size: 1.35em;
+}
+
+table.schedule-table td.tutorial .heading{
+	color:#4ca02e;
+	/*font-weight:bold;*/
+	font-size: 1.35em;
+}
+
+table.schedule-table td.bloomberg .heading{
+	color:#80007e;
+	/*font-weight:bold;*/
+	font-size: 1.35em;
+}
+
+table.schedule-table td.coffee .heading{
+	color: #db8352;
+	font-size: 1.1em;
+}
+
+table.schedule-table tr td.no-top-border{
+	border-top: none;
+}
+
+table.schedule-table tr td.no-border{
+	border-left: none;;
+}
+
+table.schedule-table .line-above{
+	border-top: #aaa 1px solid;
+}
+
+table.schedule-table .line-below{
+	border-bottom: #aaa 1px solid;
+}
+
+table.schedule-table td.venue{
+	background-color:#333;
+	color:#FFF;
+	font-size:24px;
+	padding: 8px 10px 5px 10px;
+}
+
+table.schedule-table td.key-event{
+	vertical-align:middle; 
+	background-color:#db8352; 
+	color:#fff; 
+	padding:10px; 
+	font-size:1.1em;
+	border-left: 2px solid #ae3c16;
+}
+
+table.schedule-table td.poster{
+	vertical-align:middle; 
+	background-color:#fff9ff;
+	color:#fff; 
+	padding-top:4px;
+	border-left: 2px solid #80007e;
+}
+
+table.schedule-table td.gray{
+	border-left:#777 2px solid;
+	background-color:#f2f2f2;
+}
+
+table.schedule-table td.keynote{
+	border-left:#d73e2a 2px solid;
+	background-color:#fffbfa;
+}
+
+table.schedule-table td.research{
+	border-left:#2477b4 2px solid;
+	background-color:#f9fbfe;
+}
+
+
+table.schedule-table td.key-event-green{
+	border-left:#4ca02e 2px solid;
+	background-color:#eaf5eb;
+}
+
+
+table.schedule-table td.ig-invited{
+	border-left:#80007e 2px solid;
+	background-color:#fff9ff;
+}
+
+table.schedule-table .session-no{
+	font-size: 0.9em;
+	color: #666;
+}
+
+table.schedule-table .session-name{
+	font-weight: bold;
+	color: #333;
+}
+
+table.schedule-table .session-description{
+	font-size: 0.9em;
+	color: #333;
+}
+
+table.schedule-table .session-chair{
+	font-size: 0.8em;
+	color: #333;
+}
+
+table.schedule-table .speaker-info{
+	font-size: 0.8em;
+	color: #333;
+}
+
+table.schedule-table .talk-title{
+	font-size: 1em;
+	padding: 7px 0;
+}
+
+table.schedule-table .keynote .speaker-photo{
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+table.schedule-table .keynote .session-no{
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+
+table.schedule-table .keynote .session-name{
+	padding-bottom: 2px;
+}
+
+table.schedule-table .session-best{
+	padding-top: 10px;
+	font-size: 0.7em;
+	width: 100%;
+	color: #666;
+	font-weight: bold;
+}
+
+table.schedule-table .session-best img{
+	float: left;
+	opacity: 0.6;
+}
+
+table.schedule-table img {
+	height: 70px;
+	border-radius: 5px;
+	padding-top: 3px;
+}
+
+table.schedule-table .workshop .session-chair,
+table.schedule-table .tutorial .session-chair {
+	display: none;
+}
+
+table.schedule-table td hr {
+	 margin-top: 10px;
+	 margin-bottom: 3px;
+}
+
+
+table.detailed-schedule tr td {
+	padding: 5px 8px;
+}
+table.detailed-schedule .session-name {
+	font-size: 1.3em;
+	padding: 2px 0 2px 0;
+}
+table.detailed-schedule img {
+	height: 120px;
+	border-radius: 5px;
+	padding-top: 3px;
+}
+
+table.schedule-table ul li {
+	list-style: none;
+}
+table.schedule-table ul {
+	padding-left: 2px;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+table.schedule-table .title{
+	font-size:1em;
+  font-weight: bold;
+  color:#444;
+}
+
+table.schedule-table .authors{
+  font-size: 0.9em;
+  margin-top:2px;
+  margin-bottom:18px;
+  padding-left:10px;
+  color:#555;
+}
+
+.day-overview {
+	float: left;
+	background: #f9f9f9;
+	display: inline-block; 
+	padding: 12px 12px 12px 15px;
+	width: 22%;
+	margin: 10px 10px 0;
+	border-radius: 5px;
+	font-size: 0.95em;
+}
+.day-overview a {
+	color: #000;
+}
+.day-overview button {
+	margin: 5px 0 9px 0;
+}
+@media (max-width: 768px) {
+	.day-overview {
+		width: 43%;
+		margin: 0 5px 0;
+	}
+}

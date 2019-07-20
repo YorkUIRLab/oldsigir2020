@@ -1,0 +1,153 @@
+---
+title: Proceedings
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+
+    <script>
+        var link = window.location.hash.substr(1);
+        if (link.length > 3) {
+            window.location.replace(link + ".html");
+        }
+    </script>
+
+    <style type="text/css">
+        #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+        }
+
+        #DLheader {
+        }
+
+        #DLheader h1 {
+            font-size: 16px;
+        }
+
+        #DLcontent {
+            font-size: 12px;
+        }
+
+        #DLcontent h2 {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        #DLcontent h3 {
+            font-size: 12px;
+            padding-left: 20px;
+            margin-bottom: 0px;
+        }
+
+        #DLcontent ul {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .DLauthors li {
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+        }
+
+        .DLauthors li:after {
+            content: ",";
+        }
+
+        .DLauthors li.nameList.Last:after {
+            content: "";
+        }
+
+        .DLformats li {
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+        }
+
+        .DLformats li:after {
+            content: ",";
+        }
+
+        .DLformats li.formatList.Last:after {
+            content: "";
+        }
+
+        .DLlogo {
+            vertical-align: middle;
+            padding-right: 5px;
+            border: none;
+        }
+
+        .DLcitLink {
+            margin-left: 20px;
+        }
+
+        .DLtitleLink {
+            margin-left: 20px;
+        }
+
+        .DLotherLink {
+            margin-left: 0px;
+        }
+
+        #DLtoc {
+        }
+
+        #DLtoc h1, #DLtoc h2, #DLtoc h3 {
+            font-family: Arial;
+            font-weight: bold;
+            margin-top: 12px;
+        }
+
+        #DLtoc a {
+            text-decoration: underline;
+            color: blue;
+        }
+    </style>
+</head>
+
+
+<body>
+
+{% include navbar.html %}
+
+<div class="container">
+    {% include front-logo.html %}
+
+
+    <div class="row">
+        <div class="container content-container">
+
+            <div class="col-sm-0 col-md-3">
+            </div>
+
+            <div class="col-sm-12 col-md-9">
+
+
+                <div id="DLtoc">
+                    <div id="DLheader">
+                        <h1>WSDM '18- Proceedings of the Eleventh ACM International Conference on Web Search and Data
+                            Mining</h1>
+                        <a class="DLcitLink" href="#"
+                           title="Go to the ACM Digital Library for additional information about this proceeding"><img
+                                class="DLlogo" src="http://dl.acm.org/img/dllogo.png" alt="Digital Library logo"
+                                height="30" width="30">Full Citation in the ACM Digital Library</a>
+                        TBA
+                    </div>
+                </div>
+
+
+            </div>
+        </div><!-- end row -->
+    </div>
+</div><!-- end container -->
+
+
+{% include footer.html %}
+
+
+</body>
+
+</html>
