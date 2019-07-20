@@ -42,3 +42,6 @@ exclude:
   - 2016/*
   - materials/*
   - notebooks/*
+
+url: sigir2020.github.io
+baseurl: /sadrayan
