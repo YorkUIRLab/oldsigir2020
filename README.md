@@ -1,1 +1,1 @@
-# sigir2020.github.io
+# https://yorkuirlab.github.io/sigir2020/
